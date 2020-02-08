@@ -15,15 +15,12 @@ html {
 *, *:before, *:after {
     box-sizing: inherit;
 }
-<<<<<<< HEAD
 
 /* this gets rid of a weird blue outline that shows up */
 *:focus {
     outline: none;
 }
 
-=======
->>>>>>> 12a268773caaea0fe50b010b0550b55253fe105b
 body {
     background: #9F9AA4;
     font-family: 'Open Sans', sans-serif;
@@ -56,11 +53,7 @@ h3 {
 .content-wrap {
     max-width: 1000px;
     margin: 0 auto;
-<<<<<<< HEAD
-    padding: 50px 50px;
-=======
     padding: 60px 50px;
->>>>>>> 12a268773caaea0fe50b010b0550b55253fe105b
     overflow: hidden;
 }
 .col-narrow {
@@ -154,7 +147,6 @@ p + h3 {
     margin-top: 30px;
 }
 
-<<<<<<< HEAD
 /*-----Button------------*/
 
 .button {
@@ -169,6 +161,3 @@ p + h3 {
     /* margin: 4px 2px; */
     cursor: pointer;
 }
-=======
-
->>>>>>> 12a268773caaea0fe50b010b0550b55253fe105b
