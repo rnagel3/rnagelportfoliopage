@@ -10,41 +10,41 @@
     <!-- // Intro -->
     <header id="about">
         <nav>
-            <a href="#work"> Work Experience</a>
-            <a href="#education">Education</a>
-            <a href="#interests">MeetUps and Interests</a>
-            <a href="#contact">Get in Touch</a>
+            <a class="scroll" href="#work">Work Experience</a>
+            <a class="scroll" href="#education">Education</a>
+            <a class="scroll" href="#interests">MeetUps and Interests</a>
+            <a class="scroll" href="#contact">Get in Touch</a>
         </nav>
         <div class="content-wrap">
-            <img class="profile-img col-narrow" src="images/sea_turtle.jpg" alt="Robert Nagel">
+            <img class="profile-img col-narrow" src="images/sea_turtle.jpg" onmouseover="this.src='images/coding.jpg'" onmouseout="this.src='images/sea_turtle.jpg'" alt="Robert Nagel">
             <!-- <img src="images/uiucquad.jpg" alt="uiuc quad"> -->
                 <div class="col-wide">
                     <h1>Robert Nagel</h1>
                     <p class="list_inline"><img src="images/icons8-email-16.png">&nbsp;robertn84@gmail.com</p>
                     <p class="list_inline"><img src="images/icons8-phone-16.png">&nbsp;(630) 414-2630</p>
                     <p class="list_inline"><img src="images/linkedin-logo.png">&nbsp;<a href="https://www.linkedin.com/in/rob-nagel/">linkedin.com/in/rob-nagel</a></p>
-                    <h4>I have worked with HTML, CSS, JavaScript, BootStrap, Java, Android Studio, SQL, Python, and Linux. I have had practical exposure to server hosting, data center operations, networking topology, VMWare, VirtualBox, Hyper-V, firewalls, load balancers, VPNs, and MPLS links. I am looking for a position as a developer in the Champaign-Urbana area. </h4>
+                    <h4>I have had coursework in HTML, CSS, JavaScript, BootStrap, Java, Android Studio, SQL, Python, Linux, and data structures and algorithms. I have knowledge of server hosting, data center operations, networking topology, VMWare, firewalls, load balancers, and VPNs. I am looking for a position as a developer in the Champaign-Urbana area or remote. </h4>
+                    <div>
+                        <a class="button" href="https://github.com/rnagel3" target="_blank">View Me on GitHub</a>
+                    </div>
                 </div>
         </div>
     </header>
     <main>
         <!-- // Work Experience -->
         <section>
-            <div class="content-wrap">
-                <h2 id="work">Work Experience</a></h2>
+            <div class="content-wrap" id="work">
+                <h2>Work Experience</a></h2>
 
-                <!-- Job Details: copy this whole block to add more jobs -->
                 <div class="col-narrow">
                     <h3>Sales and Business Development Manager, Cloud Hosted Solutions</h3>
                     <p>Prominic.NET </p>
                     <p>April 2018 - Current</p>
                 </div>
             
-            <!-- Add as many paragraphs as you need. -->
                 <div class="col-wide job-description">
                     <p>Served as the first point of contact for prospective customers looking for cloud hosted solutions, primarily for HCL Notes/Domino, formerly IBM.</p>
                     
-                    <!-- This list can be deleted if you don't want to use it. -->
                     <ul>
                         <li>Led discovery calls for enterprise customers involving system and network needs</li>
                         <li>Created proposals outlining costs and contract terms</li>
@@ -82,31 +82,33 @@
 
         <!-- // Education -->
         <section>
-                <div class="content-wrap">
-            <h2 id="education">Education</h2>
+                <div class="content-wrap" id="education">
+            <h2>Education</h2>
                 <h3>Parkland College, Data Systems and Development, General Programming Certificate, Mobile Development Certificate</h3>
                 <p>Coursework includes HTML, CSS, JavaScript, Linux, Java I & II, SQL I & II, Networking, Data Structures, and Mobile Application Development.</p>
                 
                 <h3>University of Illinois at Urbana-Champaign</h3>
-                <p>B.A. in International Studies - 2007</p>
-                <p>M.A. in International Studies - 2010</p>
+                <p>B.A. in German Studies - 2007</p>
+                <p>M.A. in German Studies - 2010</p>
                 </div>
         </section>
 
         <section>
-                <div class="content-wrap">
-            <h2 id="interests">MeetUps and Interests</h2>
+                <div class="content-wrap" id="interests">
+            <h2>MeetUps and Interests</h2>
+                    <h3>Hiking and Outdoors</h3>
+                    <p>I actively enjoy the outdoors. Most notably, I hiked to the top of Mt. Washington in New Hampshire, the highest mountain east of the Mississippi River.</p>
                     <h3>Coders Club</h3>
-                    <h3>JavaScript MeetUp</h3>
-                    <h3>Cloud Computing User Group</h3>
-                    <h3>Big Data Conference</h3>
+                    <p>I regularly attend the CU Coffee Shop Coders MeetUp</p>
+                    <h3>Data Science MeetUp</h3>
+                    <p>I attend this MeetUp whenever I can</p>
                 </div>
                 </section>
     </main>
     
     <!-- // Footer & contact info -->
-    <footer id="contact">
-            <div class="content-wrap">
+    <footer>
+            <div class="content-wrap" id="contact">
         <h2>Get in Touch!</h2>
             <div class="contact-info">
             <a href="mailto:robertn84@gmail.com">robertn84@gmail.com</a>
@@ -114,6 +116,13 @@
             </div>
         <p>Copyright 2020 by Robert Nagel</p>
         </div>
+        <div class="content-wrap">
+            <a class="scroll button" href="#about">Back to Top</a>
+        </div>
+        </div>
+
     </footer>
+    <!-- <script src="js/app.js"></script> -->
+    <script src="js/app2.js"></script>
 </body>
 </html>
